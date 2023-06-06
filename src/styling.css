@@ -27,6 +27,7 @@ header a {
 }
 
 header {
+	height: 110px;
 	background-color: #007ea7;
 	background-image: linear-gradient(315deg, #007ea7 0%, #80ced7 74%);
 }
@@ -88,4 +89,26 @@ header .btn {
   border-radius: 30px;
   margin-top: 1em;
   font-weight: bold;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  height: 45px;
+  width: 45px;
+  z-index: 100;
+  bottom: 55px;
+  right: 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+#topBtn:hover {
+  background-color: #404040;
 }
