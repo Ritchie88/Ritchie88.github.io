@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Garamond, serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  font-family: Garamond, serif;
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+header {
+	background-color: #007ea7;
+	background-image: linear-gradient(315deg, #007ea7 0%, #80ced7 74%);
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 1em;
+}
+
+header .nav-link {
+  font-size: 1.5em;
+  background: white;
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s ease-out;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+  font-size: 1.8em;
+}
+
+header .nav-link:hover {
+  background-position: -100%;
+  transform: rotate(10deg);
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 28vmin;
+  font-family: var(--Rubik);
+  color: whitesmoke;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header .container .col-md-7 {
+  font-family: Garamond, serif;
+}
+
+header .container .col-md-7 h4 {
+  padding: 1vmin;
+  letter-spacing: 1.2px;
+}
+
+header .btn {
+  border-radius: 30px;
+  margin-top: 1em;
+  font-weight: bold;
+}
