@@ -56,7 +56,8 @@ header .navbar-brand {
 
 header .nav-link:hover {
   background-position: -100%;
-  transform: rotate(10deg);
+  font-size: 1.6em;
+  transform: translate3d(0px, -10px, 0px);
 }
 
 header .row .col-md-7 {
